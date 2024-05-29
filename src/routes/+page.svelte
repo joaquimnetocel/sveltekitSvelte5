@@ -5,4 +5,6 @@
 	<li><a href="/effect">EFFECT</a></li>
 	<li><a href="/destroy">DESTROY</a></li>
 	<li><a href="/props">PROPS</a></li>
+	<li><a href="/slot">SLOT</a></li>
+	<li><a href="/snippets">SNIPPETS</a></li>
 </ul>

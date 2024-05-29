@@ -8,6 +8,10 @@
 	];
 </script>
 
+<a href="/">BACK</a>
+
+<h1>SNIPPETS</h1>
+
 <Table propFruits={arrayFruits}>
 	<th>FRUIT</th>
 	<th>QUANTITY</th>
