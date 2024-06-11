@@ -2,11 +2,15 @@
 	import type { Snippet } from 'svelte';
 
 	type typeProps = {
-		children: Snippet;
+		children?: Snippet;
 	};
 	let { children }: typeProps = $props();
 </script>
 
 <button>
-	{@render children()}
+	{#if children}
+		{@render children()}
+	{:else}
+		CLICK HERE!
+	{/if}
 </button>
