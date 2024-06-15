@@ -1,10 +1,11 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 
-	type typeProps = {
+	let {
+		children
+	}: {
 		children?: Snippet;
-	};
-	let { children }: typeProps = $props();
+	} = $props();
 </script>
 
 <button>
