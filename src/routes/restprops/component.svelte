@@ -4,6 +4,8 @@
 
 <div style={propRest.style} class={propRest.class}>HELLO!</div>
 
+<div {...propRest}>WELCOME!</div>
+
 <style>
 	.classBlue {
 		color: blue;
