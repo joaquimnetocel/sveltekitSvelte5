@@ -3,7 +3,11 @@
 	import python from 'svelte-highlight/languages/python';
 	import styleGradientDark from 'svelte-highlight/styles/gradient-dark';
 
-	export let propCode: string;
+	let {
+		propCode,
+	}: {
+		propCode: string;
+	} = $props();
 </script>
 
 <svelte:head>
