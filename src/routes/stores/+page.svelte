@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { functionCreatePersistentStore, functionReadStore } from '$lib/functions/stores.svelte';
+	import { functionCreatePersistentStore } from '$lib/functions/functionCreatePersistentStore.svelte';
+	import { functionReadStore } from '$lib/functions/functionReadStore';
 	import Child1 from './child1.svelte';
 	import Child2 from './child2.svelte';
 

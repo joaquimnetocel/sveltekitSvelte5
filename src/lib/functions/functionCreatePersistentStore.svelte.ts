@@ -1,12 +1,7 @@
 import { browser } from '$app/environment';
 import type { typeContext } from '$lib/types/typeContext';
 
-import { getContext, setContext } from 'svelte';
-
-export function functionCreateStore<genericT>(parInitialValue: genericT, parContext: typeContext) {
-	const state = $state({ value: parInitialValue });
-	setContext(parContext, state);
-}
+import { setContext } from 'svelte';
 
 export function functionCreatePersistentStore<genericT>(
 	parInitialValue: genericT,
@@ -26,8 +21,4 @@ export function functionCreatePersistentStore<genericT>(
 	});
 
 	setContext(parContext, state);
-}
-
-export function functionReadStore<T>(parContext: typeContext) {
-	return getContext<{ value: T }>(parContext);
 }

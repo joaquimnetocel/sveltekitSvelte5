@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { functionReadStore } from '$lib/functions/stores.svelte';
+	import { functionReadStore } from '$lib/functions/functionReadStore';
 	const storeCounter = functionReadStore<number>('contextCounter');
 </script>
 
