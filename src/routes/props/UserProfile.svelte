@@ -3,7 +3,7 @@
 		stringName,
 		numberAge,
 		arrayColors,
-		booleanOptional = false
+		booleanOptional = false,
 	}: {
 		stringName: string;
 		numberAge: number;

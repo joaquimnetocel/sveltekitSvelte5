@@ -4,7 +4,7 @@
 	const arrayFruits = [
 		{ stringName: 'APPLES', numberQuantity: 2, numberPrice: 2 },
 		{ stringName: 'BANANAS', numberQuantity: 3, numberPrice: 4 },
-		{ stringName: 'CHERRIES', numberQuantity: 6, numberPrice: 0.5 }
+		{ stringName: 'CHERRIES', numberQuantity: 6, numberPrice: 0.5 },
 	];
 </script>
 

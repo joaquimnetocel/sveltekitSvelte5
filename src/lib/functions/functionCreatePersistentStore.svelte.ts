@@ -5,7 +5,7 @@ import { setContext } from 'svelte';
 
 export function functionCreatePersistentStore<genericT>(
 	parInitialValue: genericT,
-	parContext: typeContext
+	parContext: typeContext,
 ) {
 	const state = $state({ value: parInitialValue });
 

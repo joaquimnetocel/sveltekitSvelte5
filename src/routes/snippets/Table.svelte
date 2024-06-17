@@ -4,7 +4,7 @@
 	let {
 		propFruits,
 		children,
-		snippetRow
+		snippetRow,
 	}: {
 		propFruits: {
 			stringName: string;
@@ -19,7 +19,7 @@
 					numberQuantity: number;
 					numberPrice: number;
 				},
-				number
+				number,
 			]
 		>;
 	} = $props();
