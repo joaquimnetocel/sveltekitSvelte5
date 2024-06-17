@@ -7,7 +7,7 @@
 			numberQuantity: number;
 			numberPrice: number;
 		}[];
-		children: Snippet;
+		children?: Snippet;
 		snippetRow: Snippet<
 			[
 				{
