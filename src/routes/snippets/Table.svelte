@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 
-	type typeProps = {
+	let {
+		propFruits,
+		children,
+		snippetRow
+	}: {
 		propFruits: {
 			stringName: string;
 			numberQuantity: number;
@@ -18,8 +22,7 @@
 				number
 			]
 		>;
-	};
-	let { propFruits, children, snippetRow }: typeProps = $props();
+	} = $props();
 </script>
 
 <table>

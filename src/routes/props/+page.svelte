@@ -6,4 +6,4 @@
 
 <h1>PROPS</h1>
 
-<UserProfile stringName="John" numberAge={20} arrayColors={['green', 'blue', 'red']} />
+<UserProfile stringName={'Mary'} numberAge={20} arrayColors={['green', 'blue', 'red']} />

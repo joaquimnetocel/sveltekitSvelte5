@@ -1,6 +1,6 @@
 <script lang="ts">
-	let stateCounter = $state(10);
-	const derivedDouble = $derived(stateCounter * 2);
+	let stateCounter = 10;
+	$: derivedDouble = stateCounter * 2;
 </script>
 
 <a href="/">BACK</a>
@@ -11,9 +11,9 @@
 <p>The double is {derivedDouble}!</p>
 
 <button
-	onclick={() => {
+	on:click={() => {
 		stateCounter = stateCounter + 1;
-		console.log(derivedDouble);
+		console.log(derivedDouble); // DOUBLE HAS NOT YET BEEN UPDATED BY THE PREVIOUS LINE. IT IS OUTDATED!
 	}}
 >
 	ADD 1

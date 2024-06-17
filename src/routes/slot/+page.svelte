@@ -7,3 +7,4 @@
 <h1>SLOT</h1>
 
 <FunnyButton>Click me!</FunnyButton>
+<FunnyButton />
