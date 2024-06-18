@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { HighlightSvelte } from 'svelte-highlight';
-	import styleGradientDark from 'svelte-highlight/styles/gradient-dark';
+	// import styleGradientDark from 'svelte-highlight/styles/gradient-dark';
+	import styleGradientDark from 'svelte-highlight/styles/atom-one-dark';
 
 	let {
 		propCode,

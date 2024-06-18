@@ -2,7 +2,7 @@
 <ul>
 	<li><a href="/state">STATE</a></li>
 	<li>
-		<a href="/derived"
+		<a href="/derived/comparison"
 			>SVELTE COMPARISON BETWEEN THE 'DERIVED RUNE' AND THE REACTIVITY BEFORE RUNES</a
 		>
 	</li>
