@@ -12,7 +12,7 @@
 
 <div>
 	Here we are going to highlight the javascript problem solved by reactive states. First, let's take
-	a look on a basic sum operation performed only without state reactivity (only with javascript):
+	a look on a basic sum operation performed without state reactivity (only with javascript):
 </div>
 
 <div class="p-2 mb-2 border-8">
