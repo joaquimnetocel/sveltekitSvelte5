@@ -8,7 +8,7 @@
 
 <a href="/">BACK</a>
 
-<h1>HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER</h1>
+<h1>HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER (USING SVELTE)</h1>
 
 <div>
 	Here we are going to highlight the javascript problem solved by reactive states. First, let's take

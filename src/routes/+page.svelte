@@ -1,7 +1,7 @@
 <h1>EXAMPLES</h1>
 <ul class="list-disc">
 	<li>
-		<a href="/state/problem"> HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER </a>
+		<a href="/state/problem"> HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER (USING SVELTE) </a>
 	</li>
 	<li>
 		<a href="/derived/comparison"
