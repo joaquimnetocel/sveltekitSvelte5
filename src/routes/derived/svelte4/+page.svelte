@@ -1,18 +1,17 @@
 <script lang="ts">
-	let stateCounter = 10;
-	$: derivedDouble = stateCounter * 2;
+	let stateNumber = 10;
+	$: derivedDouble = stateNumber * 2;
 </script>
 
 <a href="/">BACK</a>
 
 <h1>DERIVED</h1>
 
-<p>The counter is {stateCounter}!</p>
-<p>The double is {derivedDouble}!</p>
+<p>The double of {stateNumber} is {derivedDouble}!</p>
 
 <button
 	on:click={() => {
-		stateCounter = stateCounter + 1;
+		stateNumber = stateNumber + 1;
 		console.log(derivedDouble); // DOUBLE HAS NOT YET BEEN UPDATED BY THE PREVIOUS LINE. IT IS OUTDATED!
 	}}
 >

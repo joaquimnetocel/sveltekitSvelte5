@@ -1,12 +1,13 @@
 <script lang="ts">
-	import { Highlight } from 'svelte-highlight';
-	import python from 'svelte-highlight/languages/python';
+	import { HighlightSvelte } from 'svelte-highlight';
 	import styleGradientDark from 'svelte-highlight/styles/gradient-dark';
 
 	let {
 		propCode,
+		propCaption = 'CÓDIGO [CLIQUE AQUI]',
 	}: {
 		propCode: string;
+		propCaption?: string;
 	} = $props();
 </script>
 
@@ -15,14 +16,21 @@
 	{@html styleGradientDark}
 </svelte:head>
 
-<details>
-	<summary class="text-center"> CÓDIGO PYTHON [CLIQUE AQUI] </summary>
+<details style="margin-top: 20px;">
+	<summary class="text-center"> {propCaption} </summary>
 	<div class="relative">
 		<span
 			class="absolute bg-[lightcoral] right-0 flex items-center justify-center px-2 py-1 text-white top-0 classLangtag"
 		>
-			PYTHON
+			SVELTE
 		</span>
 	</div>
-	<Highlight language={python} code={propCode} />
+	<HighlightSvelte code={propCode} />
 </details>
+
+<style>
+	summary {
+		cursor: pointer;
+		color: blue;
+	}
+</style>

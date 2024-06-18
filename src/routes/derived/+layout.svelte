@@ -7,10 +7,16 @@
 		children: Snippet;
 	} = $props();
 
-	import PythonCode from '$lib/components/PythonCode.svelte';
-	import codeVertical from './py.py?raw';
+	import SvelteCode from '$lib/components/SvelteCode.svelte';
+	import stringCode from './+page.svelte?raw';
 </script>
 
-<PythonCode propCode={codeVertical} />
+<a href="/">BACK</a>
 
-{@render children()}
+<h1>DERIVED</h1>
+
+<div class="p-2 border-8">
+	{@render children()}
+</div>
+
+<SvelteCode propCode={stringCode} propCaption="+page.svelte" />

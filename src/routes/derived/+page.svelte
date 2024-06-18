@@ -1,19 +1,14 @@
 <script lang="ts">
-	let stateCounter = $state(10);
-	const derivedDouble = $derived(stateCounter * 2);
+	let numberCounter = $state(10);
+	let numberDouble = $derived(numberCounter * 2);
 </script>
 
-<a href="/">BACK</a>
-
-<h1>DERIVED</h1>
-
-<p>The counter is {stateCounter}!</p>
-<p>The double is {derivedDouble}!</p>
+<div>The double of {numberCounter} is {numberDouble}.</div>
 
 <button
 	onclick={() => {
-		stateCounter = stateCounter + 1;
-		console.log(derivedDouble);
+		numberCounter = numberCounter + 1;
+		console.log(`The double of ${numberCounter} is ${numberDouble}.`);
 	}}
 >
 	ADD 1
