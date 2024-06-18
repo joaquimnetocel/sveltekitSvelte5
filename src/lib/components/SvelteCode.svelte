@@ -16,7 +16,7 @@
 	{@html styleGradientDark}
 </svelte:head>
 
-<details style="margin-top: 20px;">
+<details>
 	<summary class="text-center"> {propCaption} </summary>
 	<div class="relative">
 		<span
