@@ -11,8 +11,9 @@
 <h1>HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER (USING SVELTE)</h1>
 
 <div>
-	Here we are going to highlight the javascript problem solved by reactive states. First, let's take
-	a look on a basic sum operation performed without state reactivity (only with javascript):
+	Here we are going to highlight how some javascript codes and tasks can get simpler with reactive
+	states. First, let's take a look on a basic sum operation performed without state reactivity (only
+	with javascript):
 </div>
 
 <div class="p-2 mb-2 border-8">
