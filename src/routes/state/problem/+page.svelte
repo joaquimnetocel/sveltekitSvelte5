@@ -2,12 +2,8 @@
 	import SvelteCode from '$lib/components/SvelteCode.svelte';
 	import Problem from './problem.svelte';
 	import codeProblem from './problem.svelte?raw';
-	import Svelte4b from './svelte4b.svelte';
-	import codeSvelte4b from './svelte4b.svelte?raw';
-	import Svelte5 from './svelte5.svelte';
-	import codeSvelte5 from './svelte5.svelte?raw';
-	import Svelte5b from './svelte5b.svelte';
-	import codeSvelte5b from './svelte5b.svelte?raw';
+	import Solution from './solution.svelte';
+	import codeSolution from './solution.svelte?raw';
 </script>
 
 <a href="/">BACK</a>
@@ -15,39 +11,22 @@
 <h1>UNDERSTANDING THE JAVASCRIPT PROBLEM SOLVED BY REACTIVITY</h1>
 
 <div>
-	Here we are going to highlight the javascript problem that reactivity solves. Let's take a look on
-	basic sum operation code performed without reactivity:
+	Here we are going to highlight the javascript problem solved by reactive states. First, let's take
+	a look on a basic sum operation performed only without state reactivity (only with javascript):
 </div>
 
 <div class="p-2 mb-2 border-8">
 	<Problem />
 	<hr class="mt-2" />
-	<SvelteCode propCode={codeProblem} propCaption="+page.svelte (without runes)" />
+	<SvelteCode propCode={codeProblem} propCaption="+page.svelte (without state reactivity)" />
 </div>
 
-<div>But with the 'derived rune' this problem is solved:</div>
+<div>Now, look how simple it is to do the same with reactive states:</div>
 
 <div class="p-2 mb-2 border-8">
-	<Svelte5 />
+	<Solution />
 	<hr class="mt-2" />
-	<SvelteCode propCode={codeSvelte5} propCaption="+page.svelte (with runes)" />
+	<SvelteCode propCode={codeSolution} propCaption="+page.svelte (with state reactivity)" />
 </div>
 
-<div>
-	Another difference is that if the computations are performed by a function, the non-runes method
-	don't track the dependencies properly. Take a look:
-</div>
-
-<div class="p-2 mb-2 border-8">
-	<Svelte4b />
-	<hr class="mt-2" />
-	<SvelteCode propCode={codeSvelte4b} propCaption="+page.svelte (without runes)" />
-</div>
-
-<div>But with the 'derived rune' this problem is also solved:</div>
-
-<div class="p-2 mb-2 border-8">
-	<Svelte5b />
-	<hr class="mt-2" />
-	<SvelteCode propCode={codeSvelte5b} propCaption="+page.svelte (with runes)" />
-</div>
+<div>As we can see, reactive states make everything much more simple.</div>
