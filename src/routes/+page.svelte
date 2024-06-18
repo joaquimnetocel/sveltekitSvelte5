@@ -1,7 +1,7 @@
 <h1>EXAMPLES</h1>
 <ul class="list-disc">
 	<li>
-		<a href="/state/problem"> UNDERSTANDING THE JAVASCRIPT PROBLEM SOLVED BY REACTIVITY </a>
+		<a href="/state/problem"> HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER </a>
 	</li>
 	<li>
 		<a href="/derived/comparison"
