@@ -15,7 +15,9 @@ export default {
 		// TAILWIND TYPOGRAPHY CONFIG:
 		typography,
 		/////
+		// DAISYUI CONFIG:
 		daisyui,
+		/////
 	],
 	// DAISYUI CONFIG:
 	daisyui: {
