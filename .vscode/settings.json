@@ -1,0 +1,28 @@
+{
+	// FILES SETTINGS:
+	"files.associations": {
+		".vscode-settings.json": "jsonc" // ENABLE COMMENTS IN JSON FILES.
+	},
+	/////
+	// PRETTIER SETTINGS:
+	"editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER AS DEFAULT FORMATTER.
+	/////
+	// ESLINT SETTINGS:
+	"eslint.validate": ["javascript", "svelte"], // AN ARRAY OF LANGUAGE IDS WHICH SHOULD BE VALIDATED BY ESLINT.
+	/////
+	// 'SVELTE FOR VSCODE' SETTINGS:
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode" // FORMATTER FOR SVELTE FILES.
+	},
+	/////
+	// FORMATTING SETTINGS:
+	"editor.formatOnSave": true, // FORMAT A FILE ON SAVE.
+	"editor.codeActionsOnSave": {
+		"source.sortImports": "explicit" // SORT IMPORTS ON SAVE.
+		// "source.fixAll.markdownlint": "explicit" // FIX MARKDOWN ERRORS ON SAVE
+	},
+	/////
+	// SVELTE SETTINGS:
+	"svelte.enable-ts-plugin": true // ENABLES A TYPESCRIPT PLUGIN WHICH PROVIDES INTELLISENSE FOR SVELTE FILES INSIDE TS/JS FILES.
+	/////
+}
