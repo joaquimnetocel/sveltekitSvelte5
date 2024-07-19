@@ -1,5 +1,10 @@
 <script lang="ts">
-	let { ...propRest }: { style: string; class: string } = $props();
+	let {
+		...propRest
+	}: {
+		style?: string;
+		class?: string;
+	} = $props();
 </script>
 
 <div style={propRest.style}>YELLOW BACKGROUND WITH STYLE!</div>
