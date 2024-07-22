@@ -1,5 +1,5 @@
 <script lang="ts">
-	const {
+	let {
 		stringName,
 		numberAge,
 		arrayColors,

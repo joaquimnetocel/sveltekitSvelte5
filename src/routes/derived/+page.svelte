@@ -6,7 +6,7 @@
 
 <a href="/">BACK</a>
 
-<h1>STATE</h1>
+<h1>DERIVED</h1>
 
 <div class="p-2 mb-2 border-8">
 	<Example />

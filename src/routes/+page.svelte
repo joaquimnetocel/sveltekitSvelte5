@@ -1,4 +1,10 @@
-<h1>EXAMPLES</h1>
+<h1>SVELTE 5 EXAMPLES</h1>
+<ul class="list-disc">
+	<li><a href="/state">STATE</a></li>
+	<li><a href="/derived">DERIVED</a></li>
+</ul>
+
+<h1>SVELTE 5 VERSUS SVELTE 4 COMPARISON</h1>
 <ul class="list-disc">
 	<li>
 		<a href="/state/problem"> HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER (USING SVELTE) </a>
@@ -13,7 +19,6 @@
 <h1>EXAMPLES UNDER CONSTRUCTION</h1>
 
 <ul class="list-disc">
-	<li><a href="/state">STATE</a></li>
 	<li><a href="/effect">EFFECT STATE</a></li>
 	<li><a href="/destroy">DESTROY STATE</a></li>
 	<li><a href="/props">PROPS STATE</a></li>
