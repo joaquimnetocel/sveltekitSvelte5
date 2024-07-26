@@ -4,7 +4,13 @@
 	<li><a href="/derived">DERIVED</a></li>
 </ul>
 
-<h1>SVELTE 5 VERSUS SVELTE 4 COMPARISON</h1>
+<h1>SVELTEKIT EXAMPLES</h1>
+<ul class="list-disc">
+	<li><a href="/load_function_server">SERVER LOAD FUNCTION</a></li>
+	<li><a href="/load_function_universal">UNIVERSAL LOAD FUNCTION</a></li>
+</ul>
+
+<h1>DISCUSSIONS</h1>
 <ul class="list-disc">
 	<li>
 		<a href="/state/problem"> HOW STATE REACTIVITY MAKES THINGS MUCH SIMPLER (USING SVELTE) </a>

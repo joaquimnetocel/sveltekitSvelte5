@@ -15,4 +15,7 @@
 	button {
 		@apply text-white classDaisyui-btn classDaisyui-btn-sm bg-slate-700 hover:bg-slate-500;
 	}
+	input {
+		@apply classDaisyui-input classDaisyui-input-bordered classDaisyui-input-sm;
+	}
 }
