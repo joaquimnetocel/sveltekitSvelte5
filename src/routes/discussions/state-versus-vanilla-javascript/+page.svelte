@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CodeFrame from '$lib/components/CodeFrame.svelte';
 	import SvelteCode from '$lib/components/SvelteCode.svelte';
 	import Problem from './problem.svelte';
 	import codeProblem from './problem.svelte?raw';
@@ -16,18 +17,24 @@
 	with javascript):
 </div>
 
-<div class="p-2 mb-2 border-8">
+<CodeFrame>
 	<Problem />
 	<hr class="mt-2" />
-	<SvelteCode propCode={codeProblem} propCaption="+page.svelte (without state reactivity)" />
-</div>
+	<SvelteCode
+		propCode={codeProblem}
+		propCaption="+page.svelte (without state reactivity)"
+	/>
+</CodeFrame>
 
 <div>Now, look how simple it is to do the same with reactive states:</div>
 
-<div class="p-2 mb-2 border-8">
+<CodeFrame>
 	<Solution />
 	<hr class="mt-2" />
-	<SvelteCode propCode={codeSolution} propCaption="+page.svelte (with state reactivity)" />
-</div>
+	<SvelteCode
+		propCode={codeSolution}
+		propCaption="+page.svelte (with state reactivity)"
+	/>
+</CodeFrame>
 
 <div>As we can see, reactive states make everything much more simple.</div>

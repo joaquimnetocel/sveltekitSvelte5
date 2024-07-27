@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CodeFrame from '$lib/components/CodeFrame.svelte';
 	import SvelteCode from '$lib/components/SvelteCode.svelte';
 	import Example from './Example.svelte';
 	import codeExample from './Example.svelte?raw';
@@ -6,10 +7,13 @@
 
 <a href="/">BACK</a>
 
-<h1>STATE</h1>
+<h1>DERIVED</h1>
 
-<div class="p-2 mb-2 border-8">
+<CodeFrame>
 	<Example />
 	<hr class="mt-2" />
-	<SvelteCode propCode={codeExample} propCaption="+page.svelte" />
-</div>
+	<SvelteCode
+		propCode={codeExample}
+		propCaption="+page.svelte"
+	/>
+</CodeFrame>

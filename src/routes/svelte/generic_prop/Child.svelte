@@ -1,4 +1,7 @@
-<script lang="ts" generics="genericA, genericB">
+<script
+	lang="ts"
+	generics="genericA, genericB"
+>
 	// eslint-disable-next-line no-undef
 	type typeGenericA = genericA;
 	// eslint-disable-next-line no-undef

@@ -14,13 +14,30 @@
 
 <h1>PROBLEM WITH STORES ON SERVER</h1>
 
-<a href="/ssr_problem" data-sveltekit-reload>NO USER</a> /
-<a href="/ssr_problem?id=1" data-sveltekit-reload>User 1</a> /
-<a href="/ssr_problem?id=2" data-sveltekit-reload>User 2</a>
+<a
+	href="/ssr_problem"
+	data-sveltekit-reload>NO USER</a
+>
+/
+<a
+	href="/ssr_problem?id=1"
+	data-sveltekit-reload>User 1</a
+>
+/
+<a
+	href="/ssr_problem?id=2"
+	data-sveltekit-reload>User 2</a
+>
 
 <div>
-	NAME: <input type="text" value={stateUser.name} />
+	NAME: <input
+		type="text"
+		value={stateUser.name}
+	/>
 </div>
 <div>
-	PASSWORD: <input type="text" value={stateUser.password} />
+	PASSWORD: <input
+		type="text"
+		value={stateUser.password}
+	/>
 </div>
