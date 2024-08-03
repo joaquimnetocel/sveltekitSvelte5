@@ -9,6 +9,6 @@
 	} = $props();
 </script>
 
-<div class="mx-10 my-6">
+<div class="h-full px-10 py-6">
 	{@render children()}
 </div>
