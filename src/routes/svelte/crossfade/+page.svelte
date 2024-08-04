@@ -3,12 +3,11 @@
 	import SvelteCode from '$lib/components/SvelteCode.svelte';
 	import Example from './Example.svelte';
 	import codeExample from './Example.svelte?raw';
-	import codeUserProfile from './UserProfile.svelte?raw';
 </script>
 
 <a href="/">BACK</a>
 
-<h1>PROPS</h1>
+<h1>CROSSFADE</h1>
 
 <CodeFrame>
 	<Example />
@@ -16,10 +15,5 @@
 	<SvelteCode
 		propCode={codeExample}
 		propCaption="+page.svelte"
-	/>
-	<hr class="mt-2" />
-	<SvelteCode
-		propCode={codeUserProfile}
-		propCaption="UserProfile.svelte"
 	/>
 </CodeFrame>

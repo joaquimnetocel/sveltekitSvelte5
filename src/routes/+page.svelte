@@ -3,6 +3,8 @@
 	<li><a href="/svelte/state">STATE</a></li>
 	<li><a href="/svelte/derived">DERIVED</a></li>
 	<li><a href="/svelte/props">PROPS</a></li>
+	<li><a href="/svelte/call-function-inside-component">CALL A FUNCTION INSIDE COMPONENT</a></li>
+	<li><a href="/svelte/crossfade">CROSSFADE ANIMATION</a></li>
 </ul>
 
 <h1>SVELTEKIT EXAMPLES</h1>
